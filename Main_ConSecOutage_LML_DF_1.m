@@ -38,7 +38,7 @@ R_E = [R_E_min : R_E_stepsize : R_E_max];
 R_T_th = 2.^(R_T) -1;
 R_E_th = 2.^(R_E) -1;
 
-iter = 10^5;  %iteration
+iter = 10^4;  %iteration
 
 nData = length(R_T);
 
